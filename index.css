@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 
-.main {
+.main-container {
   color: whitesmoke;
   background-color: #1c1a19;
+  min-width: 375px;
+  width: 100%;
 }
 
 .logo {
@@ -96,8 +98,7 @@ ul {
 }
 
 .vec {
-  height: 20px;
-  width: 20px;
+  width: 25px;
 }
 
 .bg {
@@ -105,13 +106,3 @@ ul {
   position: absolute;
 }
 
-#back {
-  position: relative;
-  bottom: 100px;
-  right: 100px;
-  height: 298.3157177564727px;
-  width: 300.5108468215952px;
-  left: 900.43310546875px;
-  top: -10px;
-  border-radius: 0;
-}
