@@ -62,12 +62,12 @@
 }
 
 h2 {
-  font-family: Roboto;
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 p {
@@ -82,11 +82,11 @@ p {
 
 ul {
   width: 49%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    margin-top: 99px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 99px;
 }
 
 .icons {
