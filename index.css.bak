@@ -1,0 +1,445 @@
+#pro{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+/* .placeholder{
+  width: 580px;
+  height: 380px;
+  background: url('images/Img\ Placeholder.png');
+  align-items:left;
+
+ 
+ 
+} */
+
+.image-wrapper{
+  width: 375px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+img.image-wrapper{
+  width:100%;
+}
+
+.par{
+  justify-content: flex-start;
+  width: 330px;
+  height: 150px;
+  font-family: 'Inter',sans-serif;
+  font-size: normal;
+  font-size: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.languages{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.langn{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #8993a4;
+  gap: 12px;
+  margin: 6px 6px;
+  font-size: 14px;
+  line-height: 12px;
+  color: #1c1a19;
+}
+.project-button{
+
+  margin: 20px 20px;
+  padding: 6px;
+  height: 40px;
+  position: relative;
+  bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6b00;
+  color: #fff;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #F55800;
+}
+
+h3{
+  width: 315px;
+  height: 52px;
+  font-family: 'Crete Round',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #091E42;
+  width: 315px;
+  height: 52px;
+}
+
+h4{
+  width: 448px;
+  height: 48px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #091E42;
+}
+
+p{
+width: 448px;
+height: 140px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #091E42;
+}
+
+.languages{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 49px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+}
+/*
+.project-button{
+  width: 100px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background: #f55800;
+}*/
+
+/*.projects{
+  display: grid;
+}*/
+
+#pro1{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url('images/img.svg');
+}
+
+.pro-project{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+h6{
+  font-family: 'Crete Round',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  width: 300px;
+  height: 22px;
+  line-height: 44px;
+  color: #1c1a19;
+  padding-top: 1rem;
+  margin-left: -2rem;
+}
+
+.pro1-desc{
+  width: 300px;
+  height: 80px;
+  font-style: normal;font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+}
+.framework{
+  display: flex;
+  justify-content: start;
+  margin-left: 0.5rem;
+}
+
+.space{
+  margin-left: 00.5rem;
+}
+.botm{
+  left: 0;
+  right: 0;
+  
+  display: flex;
+  background: #ff6b00;
+  text-align: center;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.03rem;
+  color: #fff;
+}
+.about{
+  position: absolute;
+  width: 1440px;
+  height: 1195px;
+  left: 0px;
+  top: 2680px;
+  background: #262626;
+}
+.aboutme{
+  width: 566px;
+  height: 78px;
+  font-family: 'Crete Round',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #F55800;
+}
+.about-illus{
+  position: absolute;
+}
+
+.resum{
+  padding: 12px;
+  gap: 10px;
+  width: 160px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ff6b00;
+  color: #fff;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+.vector{
+  position: relative;
+  top: 13rem;
+}
+.rectangle{
+  position: relative;
+  top: 20rem;
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  transform: rotate(-45deg);
+}
+.langdis{
+  position: relative;
+  font-size: 2em;
+  top: 16em;
+  left: 30px;
+}
+.langu-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 16rem;
+  left:6rem;
+  gap: 1rem;
+  font-size: 1.5em;
+
+}
+.frame{
+  position: relative;
+  top: 20rem;
+  right: 6rem;
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+}
+
+.sequ{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 16rem;
+  left: 6rem;
+  gap: 1rem;
+  font-size: 1.5em;
+}
+.langdisplay{
+position: relative;
+font-size: 2rem;
+top: 16rem;
+left: 25px;
+}
+
+.skill{
+top: 20rem;
+position: relative;
+right: 6rem;
+width: 18px;
+height: 18px;
+background: #ff6b00;
+}
+
+
+
+      <section class="projects" id ="pro-1">
+        <div class="pro-project">
+          <h3 class = "project-title">Multi-Post Stories</h3>
+          <p class="project-desciption">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          
+        </div>
+        <div class="framework1">
+          
+          <img src="images/Tag.svg" class="space">
+          <img src="images/Tag-1.svg" class="space">
+          <img src="images/Tag-2.svg" class="space">
+        </div>
+        <button class="botm">
+          <h7>See Projects</h7>
+        </button>
+  
+      </section>
+
+      <section class="projects" id ="pro-1">
+
+        <div class="pro-project">
+          <h6>Profesional Art Printing Data</h6>
+          <p class="pro1-desc">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+        </div>
+        <div class="framework">
+          <img src="images/Tag.svg" class="space">
+          <img src="images/Tag-1.svg" class="space">
+          <img src="images/Tag-2.svg" class="space">
+        </div>
+        <button class="project-button">
+          <h7>See Projects</h7>
+        </button>
+        
+      </section>
+
+      <section class="projects" id ="pro-1">
+        <div class="pro-project">
+          <h6>Profesional Art Printing Data</h6>
+          <p class="pro1-desc">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+        </div>
+        <div class="framework">
+          <img src="images/Tag.svg" class="space">
+          <img src="images/Tag-1.svg" class="space">
+          <img src="images/Tag-2.svg" class="space">
+        </div>
+        <button class="botm">
+          <h7>See Projects</h7>
+        </button>
+        
+      </section>
+
+      <section class="projects" id ="pro-1">
+        
+        <div class="pro-project">
+          <h6>Profesional Art Printing Data</h6>
+          <p class="pro1-desc">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+        </div>
+        <div class="framework">
+          <img src="images/Tag.svg" class="space">
+          <img src="images/Tag-1.svg" class="space">
+          <img src="images/Tag-2.svg" class="space">
+        </div>
+        <button class="botm">
+          <h7>See Projects</h7>
+        </button>
+        
+      </section>
+
+      <section class="projects" id ="pro-1">
+        
+        <div class="pro-project">
+          <h6>Profesional Art Printing Data</h6>
+          <p class="pro1-desc">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          
+        </div>
+        <div class="framework">
+          <img src="images/Tag.svg" class="space">
+          <img src="images/Tag-1.svg" class="space">
+          <img src="images/Tag-2.svg" class="space">
+        </div>
+        <button class="botm">
+          <h7>See Projects</h7>
+        </button>
+        
+      </section>
+
+      <section class="about">
+
+        <h1 class="aboutme">About me</h1>
+        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+        <img src="images/illustration-about-me-mobile@2x.svg" class="about-illus">
+        <button class="resum">Get My Resume</button>
+
+        <img src="images/Vector 4.svg" class="vector">
+        <img src="images/Rectangle 55.svg" class="rectangle">
+        <h1 class="langdis">Language</h1>
+        <ul class="langu-list">
+          <li>Javascript</li>
+          <li>Ruby</li>
+          <li>Html</li>
+          <li>Css</li>
+
+        </ul>
+
+        <img src="images/Rectangle 56.svg" class="frame">
+        <h1 class="langdisplay">Frameworks</h1>
+        <ul class="sequ">
+          <li>Javascript</li>
+          <li>Ruby</li>
+          <li>Html</li>
+          <li>Css</li>
+
+        </ul>
+
+        <img src="images/Rectangle 57.svg" class="skill">
+        <h1 class="langdisplay">Skills</h1>
+        <ul class="sequ">
+          <li>Codekit</li>
+          <li>Github</li>
+          <li>Codepen</li>
+          <li>Gitlab</li>
+          <li>Terminal</li>
+
+        </ul>
+
+      </section>
+
+      <li> <span>Javascript</span>
+          <span>Ruby</span>
+          <li>Html</li>
+          <li>Css</li>
+        </ul>
