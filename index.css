@@ -104,14 +104,14 @@ ul {
 .bg {
   flex-direction: column;
   position: absolute;
-  background-color:#ffffff;
+  background-color: #fff;
 }
 
-/* second day project*/
-.works{
+/* second day project */
+.works {
   display: grid;
   columns: 1;
-  background: #fff; 
+  background: #fff;
   align-items: center;
   padding-top: 95px;
   padding-left: 24px;
@@ -119,115 +119,118 @@ ul {
   padding-bottom: 120px;
 }
 
-.section-header{
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 52px;
-color: #1C1A19;
-margin-bottom: 20px;
-text-align: center;
+.section-header {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.projects{
+.projects {
   margin-top: 30px;
 }
 
-.image-wrapper{
+.image-wrapper {
   max-width: 375px;
 }
 
-img.placeholder{
+img.placeholder {
   width: 100%;
 }
 
-.project-title{
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 44px;
-align-items: center;
-color: #091E42;
+.project-title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: #091e42;
 }
 
-.project-description{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #091E42;
+.project-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
 }
 
-.languages{
+.languages {
   margin-top: 10px;
   display: flex;
   gap: 8px;
 }
 
-.languages>li{
-  padding: 8px; 
-  border:1px solid #3e3c3c;
-  color: #091E42;
+.languages > li {
+  padding: 8px;
+  border: 1px solid #3e3c3c;
+  color: #091e42;
 }
 
-.project-button{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 24px;
-background-color: #f55800;
-color: #fff;
-padding: 10px;
-margin-top: 15px;
-border: none;
+.project-button {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #f55800;
+  color: #fff;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
 }
 
-.project-data{
+.language-list li {
+  padding: 15px;
+}
+
+.project-data {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Img_Placeholder.png);
   background-repeat: no-repeat;
   color: #fff;
-  
 }
 
-.project-data .project-title{
+.project-data .project-title {
   padding-top: 82px;
   padding-left: 16px;
   padding-right: 16px;
   color: #f4f5f7;
 }
 
-.project-data .project-description{
+.project-data .project-description {
   padding-left: 16px;
   padding-right: 16px;
   color: #f4f5f7;
 }
 
-.fullwidth-button{
+.fullwidth-button {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
   color: #f4f5f7;
 }
 
-.project-data .languages{
+.project-data .languages {
   padding-left: 16px;
   padding-right: 16px;
 }
-.project-data .languages>li{
+
+.project-data .languages > li {
   color: #f4f5f7;
-  background: rgba(255, 255, 255, 0.24); 
+  background: rgba(255, 255, 255, 0.24);
 }
 
-.about-me{
+.about-me {
   min-width: 375px;
-  
 }
 
-.about-me .about-me-main{
+.about-me .about-me-main {
   background: url("images/illustration-about-me-mobile@2x.svg");
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -236,51 +239,44 @@ border: none;
   padding-right: 24px;
 }
 
-.about-me .about-me-main h2{
-  font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 72px;
-line-height: 88px;
-letter-spacing: 0.37px;
-color: #FF6B00;
-padding-top: 120px;
+.about-me .about-me-main h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding-top: 120px;
 }
 
-.about-me .about-me-main .about-me p{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #F4F5F7;
+.about-me .about-me-main .about-me p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
 }
 
-.lang-wrapper{
+.lang-wrapper {
   padding-top: 100px;
   display: flex;
   gap: 5px;
   justify-content: center;
 }
 
-.language-list{
+.language-list {
   display: flex;
   list-style: none;
   text-align: center;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 5px;
   width: 100%;
- 
 }
 
-.language-list li{
-    padding: 15px;
-}
-
-
-.framework{
+.framework {
   padding-top: 15px;
 }
