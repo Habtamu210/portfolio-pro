@@ -277,3 +277,121 @@ img.placeholder {
 .framework {
   padding-top: 15px;
 }
+
+/* contact us information */
+.contact {
+  background-color: #fff;
+  display: flex;
+  display: grid;
+  columns: 1;
+  align-items: center;
+  padding-top: 95px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 120px;
+  margin-top: auto;
+}
+
+.contact-us {
+  display: grid;
+  columns: 1;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 120px;
+}
+
+.contactus-description {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
+input {
+  width: 292px;
+  border-radius: 0;
+  padding: 15px;
+  margin: 10px 6px 10px 9px;
+  position: relative;
+  color: #1c1a19;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid;
+}
+
+textarea {
+  width: 290px;
+  height: 148px;
+  margin: 7px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+  color: #3c3a39;
+  background: #f4f5f7;
+  text-align: left;
+  line-height: 24px;
+  left: 0;
+  right: 0;
+  top: 0;
+  border: 0;
+  padding-left: 15px;
+}
+
+textarea:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.contact-button {
+  padding: 12px;
+  gap: 10px;
+  width: 140px;
+  height: 48px;
+  background: #f55800;
+  color: #f4f5f7;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  justify-content: center;
+  display: block;
+  text-align: center;
+  margin: 15px auto auto auto;
+}
+
+.contact-button:hover {
+  background-color: black;
+}
+
+footer {
+  background-color: white;
+  border-style: solid;
+  border-top: 1px solid rgb(190, 188, 186);
+}
+
+footer:hover {
+  border-top: 1px solid blue;
+}
+
+.footer-icon {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+  padding-top: 10px;
+}
